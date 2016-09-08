@@ -1,0 +1,9 @@
+#
+# Touchscreen driver configuration
+#
+if TOUCHSCREEN_MTK_GSLX68X
+
+config GSLX68X_CONFIG
+	string "GSLX68X for Mediatek config"
+
+endif

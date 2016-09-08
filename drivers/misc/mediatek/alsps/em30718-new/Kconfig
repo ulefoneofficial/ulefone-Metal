@@ -1,0 +1,4 @@
+
+config MTK_EM30718_NEW
+	bool "em30718 for MediaTek package"
+	default n

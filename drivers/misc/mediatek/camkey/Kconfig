@@ -1,0 +1,6 @@
+config LY_GPIO_CAMKEY_SUPPORT
+	tristate "GPIO camkey support"
+	depends on GPIOLIB
+	help
+	  Say Y here to enable GPIO based camkey support.
+

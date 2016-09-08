@@ -1,0 +1,9 @@
+#
+# Touchscreen driver configuration
+#
+if TOUCHSCREEN_MTK_GT1X
+
+config GT1X_CONFIG
+	string "GT1X for Mediatek config"
+
+endif

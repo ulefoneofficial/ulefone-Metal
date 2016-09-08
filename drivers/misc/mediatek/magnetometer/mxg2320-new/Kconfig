@@ -1,0 +1,9 @@
+
+config MTK_MXG2320_NEW
+	bool "MXG2320 for MediaTek package"
+	default n
+	help
+	  It support different magnetometer sensor.
+          If this option is set,
+	  it will support
+          MXG2320 magnetometer.

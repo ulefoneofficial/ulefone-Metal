@@ -1,0 +1,39 @@
+#
+#Fingerprint
+#
+
+config LY_FINGERPRINT
+	tristate "Lingyang Fingerprint"
+	default n
+	---help---
+	Fingerprint Lingyang driver enable/disable in the kernel.
+	Say Y here if you want to use lingyang fingerprint driver,
+	fingerprint driver will support fingerprint function in REE,
+	it supports et310 or afs120 or gtx1xm device.
+
+config LY_FINGERPRINT_ET310_SUPPORT
+	tristate "ET310 fingerprint Driver"
+  	default n
+  	help
+    	ET310 fingerprint Driver
+    	This config is used to enable the corresponding
+    	fingerprint driver for the fingerprint module
+    	Set as y if the driver is used in this project
+
+config LY_FINGERPRINT_AFS120_SUPPORT
+ 	tristate "AFS120 fingerprint Driver"
+  	default n
+  	help
+    	AFS120 fingerprint Driver
+    	This config is used to enable the corresponding
+    	fingerprint driver for the fingerprint module
+    	Set as y if the driver is used in this project
+
+config LY_FINGERPRINT_GFX1XM_SUPPORT
+  	tristate "GFX1XM fingerprint Driver"
+  	default n
+  	help
+    	GFX1XM fingerprint Driver
+    	This config is used to enable the corresponding
+    	fingerprint driver for the fingerprint module
+    	Set as y if the driver is used in this project
